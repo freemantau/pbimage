@@ -1,13 +1,13 @@
 # pbimage
-Image type conversion, scaling, modification.. in Powerbuilder
-**more:[pbni-rs](https://crates.io/crates/pbni-rs)**
+Image type conversion, scaling, modification in Powerbuilder
+> more information:[pbni-rs](https://crates.io/crates/pbni-rs)
 * Build
-```toml
+```rust
 cargo build --release
 # Copy \target\i686-pc-windows-msvc\release\pbimage.dll file to the pb project directory
 ```
 
-#Conversion
+# Conversion
 > **BMP,JPEG,GIF,PNG,ICO,TIFF,WEBP**
 * File
 ```vbscript
